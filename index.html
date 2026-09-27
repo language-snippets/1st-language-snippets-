@@ -13,10 +13,16 @@ p.ex2 {
   font-size: 22px;
 }
   
+      .site-heading { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:18px 24px; margin:22px 0; }
+    .site-heading .ex1 { margin:0; font-weight:700; }
+    .newsletter-button { margin-left:auto; box-sizing:border-box; max-width:100%; border:0; border-radius:999px; padding:10px 24px; background:#7fff00; color:#fff; font-family:inherit; font-size:31px; font-weight:700; line-height:normal; text-align:center; }
   </style>
 </head>
 <body>
-<P><B><p class="ex1">Cambridge graduate English tutor</B></P>
+<header class="site-heading">
+  <p class="ex1">Cambridge graduate English tutor</p>
+  <button class="newsletter-button" type="button" aria-disabled="true">Free newsletter 14 days</button>
+</header>
 
   <p><p class="ex2">Cambridge University graduate (Clare College), British by birth, tutors advanced English in Budapest, face-to-face at cafes or at the learner's office.</p>
 
